@@ -1,8 +1,13 @@
 aid: opensesame
 name: Opensesame
-description: 'Opensesame is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OpenSesame is an online learning course marketplace founded in 2002 and
+  headquartered in Portland, Oregon. It offers 60,000+ pre-vetted training courses in
+  70+ languages spanning compliance, business skills, safety, technology, leadership,
+  and industry-specific topics, and delivers them into an organization''s existing
+  learning management system through a patented one-click curation integration with
+  automatic daily metadata sync and xAPI progress reporting. OpenSesame is a portfolio
+  company of Partech and maintains a public trust center with SOC 2 Type 2, ISO/IEC
+  27001, ISO/IEC 27701, and GDPR posture.'
 url: https://raw.githubusercontent.com/api-evangelist/opensesame/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- eLearning
+- Learning Management
+- Online Training
+- Course Marketplace
+- Corporate Training
+- LMS Integration
+- xAPI
 - Applicative Saas
+image: https://cdn.prod.website-files.com/688455602da478d1fbcc4481/6914abf4e09287916fa74ef6_Open%20Graph%20Image.avif
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://opensesame.com/
+  url: https://www.opensesame.com/
+- type: Blog
+  url: https://www.opensesame.com/blog
+- type: Pricing
+  url: https://www.opensesame.com/purchase-plans
+- type: Support
+  url: https://support.opensesame.com/hc/en-us
+- type: HelpCenter
+  url: https://support.opensesame.com/hc/en-us
+- type: StatusPage
+  url: https://status.opensesame.com/
+- type: TermsOfService
+  url: https://www.opensesame.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.opensesame.com/legal/privacy-policy
+- type: TrustCenter
+  url: security/opensesame-trust-center.yml
+- type: Compliance
+  url: https://security.opensesame.com/
+- type: DomainSecurity
+  url: security/opensesame-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
